@@ -75,9 +75,9 @@ export default function Login({changeStatus}) {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    paddingTop:40,
     paddingHorizontal:10,
-    backgroundColor: "#F2f6fc"
+    backgroundColor: "#F2f6fc",
+    justifyContent: 'center'
   },
   input:{
     marginBottom: 10,
